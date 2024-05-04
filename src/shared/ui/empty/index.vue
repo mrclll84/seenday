@@ -1,6 +1,6 @@
 <template>
   <div class="empty">
-    <img v-if="!props.withoutImage" src="@/shared/assets/images/errors/no-photo-main.png" />
+    <img v-if="!props.withoutImage" src="@/shared/assets/images/no-photo-main.png" />
 
     <Notice color="transparent">
       <slot />
