@@ -1,0 +1,27 @@
+//Общие стили для блоков, обводка, радиус
+.block {
+    display:          block;
+
+    // border: $block-border-width solid var(--border_block);
+    background-color: var(--bg_block);
+    border-radius:    $block-border-radius;
+
+    box-shadow:       var(--box_shadow_block);
+
+
+    &-padding {
+        padding: 16px;
+    }
+
+    &-margin {
+        margin: 15px 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
